@@ -1,0 +1,43 @@
+<template>
+<version>1</version>
+<type>contact</type>
+<measurement>in</measurement>
+<pageSettings>
+	<margin-left>.25</margin-left>
+	<margin-top>.25</margin-top>
+	<margin-right>.25</margin-right>
+	<margin-bottom>.25</margin-bottom>
+	<orientation>portrait</orientation>
+	<font-family>Helvetica</font-family>
+	<font-size>12</font-size>
+</pageSettings>
+<contacts>
+	<columns>2</columns>
+	<rows>6</rows>
+	<contact>
+		<field>
+			<position>0,0</position>
+			<text>Name:</text>
+			<width>.65</width>
+			<text-align>right</text-align>
+		</field>
+		<field>
+			<position>.65,0</position>
+			<key>whole name</key>
+			<font-family>Helvetica Bold</font-family>
+		</field>
+		<field>
+			<position>0,.2</position>
+			<text>Phone:</text>
+			<width>.65</width>
+			<text-align>right</text-align>
+		</field>
+		<field>
+			<position>.65,.2</position>
+			<key>phone</key>
+			<height>1.5</height>
+			<appendWith>\n</appendWith>
+		</field>
+	</contact>
+</contacts>
+</template>
